@@ -1,2 +1,4 @@
 # FiveStar_v1
- Pagina de agendamento de barbearia
+    1° Versão da pagina de agendamento de uma barbearia para o nosso TCC.
+
+    Desenvolvido por alunos da escola ETB Brasília-DF.
