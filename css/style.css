@@ -46,7 +46,7 @@ main{
 
 a{
     text-decoration: none;
-    transition: 0.8s;
+    transition: 0.5s;
     color: rgb(31, 31, 31);
     font-weight: 600;
 }
