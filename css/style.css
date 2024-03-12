@@ -94,7 +94,7 @@ aside.localizacao{
 
 footer{
     background-color: #1f1c2a;
-    padding: 20px;
+    padding: 10px;
     color: gray;
     text-align:center;
     margin-top: 5px;
@@ -120,5 +120,11 @@ li{
 footer > p{
     text-align: center;
     padding: 5px;
+}
+
+footer h6{
+    padding:0;
+    background-color: #0b0716;
+    border-radius: 10px;
 }
 
