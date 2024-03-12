@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: rgb(218, 217, 217);
+    background-color: rgb(211, 211, 211);
 }
 
 header{
@@ -38,7 +38,7 @@ main{
     max-width: 900px;
     margin: auto;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     box-shadow: 0px 0px 20px #000000a3;
     border-bottom-left-radius: 10px ;
     border-bottom-right-radius: 10px ;
@@ -109,9 +109,7 @@ abbr{
 }
 
 a:hover{
-    color:yellow;
-    background-color: black;
-    border-radius: 30px;
+    color:#daa520;
     text-decoration: underline;
 }
 
