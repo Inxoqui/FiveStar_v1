@@ -104,10 +104,15 @@ footer a{
     color:white;
 }
 
+abbr{
+    text-decoration: none;
+}
+
 a:hover{
     color:yellow;
     background-color: black;
     border-radius: 30px;
+    text-decoration: underline;
 }
 
 li{
