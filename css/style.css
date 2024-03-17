@@ -58,7 +58,8 @@ h1, h2, h3{
 }
 
 h5{
-    text-align: center
+    text-align: center;
+    font-weight: bold;
 }
 
 p{
@@ -71,15 +72,18 @@ p{
     font-size: 1.5em;
 }
 
+.agendamento .localizacao{
+    width: 450px;
+}
+
 .agendamento p{
     text-align: center;
     text-indent: 0px;
     padding-bottom: 10px;
 }
 
-aside.localizacao{
-    border-radius: 20px;
-    margin: 5px auto;
+.informacoes p{
+    text-align: center;
 }
 
 footer{
