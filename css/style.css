@@ -73,7 +73,7 @@ p{
 }
 
 .agendamento .localizacao{
-    width: 450px;
+    max-width: 450px;
 }
 
 .agendamento p{
