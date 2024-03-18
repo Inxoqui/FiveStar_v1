@@ -180,7 +180,8 @@ iframe{
 }
 
 .informacoes p{
-    text-align: center;
+    text-align: justify;
+    text-indent: 30px;
 }
 
 footer{
