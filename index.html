@@ -17,16 +17,56 @@
                 <img src="img/logo.jpg" alt="logo Five Star">
             </div>
         </div>
+        <nav class="links">
+            <div class="links">
+                <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0" target="_blank" rel="Contato">Contato</a>
+            </div>
+            
+            <div class="links">
+                <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0" target="_blank" rel="Contato">Agendamento</a>
+            </div>
+
+        </nav>
     </header>
 
     <main>  
-        <section class="slides">
+        <section class="container">
+            <div class="slides">
             
+                <!--Botões-->
+                <input class="input" type="radio" name="slide" id="slide1" checked>
+                <input class="input" type="radio" name="slide" id="slide2">
+                <input class="input" type="radio" name="slide" id="slide3">
+                <input class="input" type="radio" name="slide" id="slide4">
+            
+                <!--Imagens-->
+                <div class="slide s1">
+                    <img src="img/fivestar.png" alt="imagem1">
+                </div>
+                <div class="slide" >
+                    <img src="img/fivestar.png" alt="imagem2">
+                </div>
+                <div class="slide">
+                    <img src="img/fivestar.png" alt="imagem3">
+                </div>
+                <div class="slide">
+                    <img src="img/fivestar.png" alt="imagem4">
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <!--referenciando as imagens dentro de cada input-->
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+        </div>
         </section>
         
-        <aside class="sorteio">
+        <div class="sorteio">
             <h5>Para participar do sorteio faça algum procedimento e concorrra a um IPHONE 15 PRO MAX!</h5>
-        </aside>
+        </div>
 
         <section class="agendamento">
             <h2>AGENDE PELO NOSSO WHATSAPP</h2>
@@ -41,11 +81,12 @@
                 
                 <h3>Nossa localição</h3>
 
-                <p>Rua 8, 6, Lotes 4, 6, 8 loja, Águas Claras, Brasília-DF - 71908-360<a href="https://www.google.com/maps/dir//Rua+8,+6,+Lotes+4,6,8+loja,+%C3%81guas+Claras,+Bras%C3%ADlia,+DF+-+71908-360/@0,0,22z/data=!4m5!4m4!1m1!4e2!1m0!3e0" target="_blank"> <i class="fas fa-map-marker-alt"></i> <abbr title="Nossa localização">Ver no mapa</abbr></a></p>
-
-                <p>
+                <p>Rua 8, 6, Lotes 4, 6, 8 loja, Águas Claras, Brasília-DF - 71908-360<a href="https://www.google.com/maps/place/Barbearia+Five+Star/@-15.8349904,-48.0171115,17z/data=!3m1!4b1!4m6!3m5!1s0x935a3391bb2b0509:0xf0c29abd349df0!8m2!3d-15.8349956!4d-48.0145366!16s%2Fg%2F11vd7dfq61?entry=ttu" target="_blank""> <i class="fas fa-map-marker-alt"></i> <abbr title="Nossa localização">Ver no mapa</abbr></a> <br>
                     <strong>Segunda-Feira a Sábado:</strong> 09:00 às 20:00
                 </p>
+
+                <div class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.410831789479!2d-48.01711152499077!3d-15.83499042395577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3391bb2b0509%3A0xf0c29abd349df0!2sBarbearia%20Five%20Star!5e0!3m2!1sen!2sbr!4v1710721349589!5m2!1sen!2sbr" max-width="320" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
             </aside>
 
         </section>
@@ -83,5 +124,7 @@
 
         <h5>EM BREVE SITE OFICIAL!!</h5>
     </footer>
+
+    <script src="script.js"></script><!--script slides-->
 </body>
 </html>

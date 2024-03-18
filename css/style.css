@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    height: 90px;
+    height: 120px;
     background-color: #0b0716;
     box-shadow: 0px 0px 20px 0px #0b0716ad;
 }
@@ -32,6 +32,16 @@ header{
     height:100%;
     display: block;
     border-radius: 50px;
+}
+
+.links{
+    display: inline-block;
+    margin: 5px;
+}
+
+.links a{
+    color: white;
+    font-family: serif;
 }
 
 main{
@@ -68,13 +78,99 @@ p{
     text-align: justify;
 }
 
+.container{
+    height: 400px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container .slide img{
+    height: 100%;
+    width: 100%;
+}
+
+.navigation{
+    position: absolute;
+    bottom: -3px;
+    left: 25px;
+    display: flex;
+}
+
+.bar{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.bar:hover{
+    background-color: white;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.slide{
+    width: 25%;
+    transition: .6s;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -25%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -50%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -75%;
+}
+
+.sorteio{
+    margin-top: 420px ;
+}
+
 .contato a{
     font-size: 1.5em;
 }
 
-.agendamento .localizacao{
+.localizacao{
     max-width: 450px;
+    margin: auto;
 }
+
+.maps{
+    max-width: 320px;
+    height: 300px;
+    margin: auto;
+}
+
+iframe{
+    width: 100%;
+}
+
 
 .agendamento p{
     text-align: center;
