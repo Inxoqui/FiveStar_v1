@@ -121,6 +121,11 @@ input{
     display: none;
 }
 
+.imagens_slide{
+    display: flex;
+    justify-content: center;
+}
+
 .slides{
     display: flex;
     width: 400%;
