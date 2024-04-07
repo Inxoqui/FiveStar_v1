@@ -1,125 +1,160 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>FiveStar</title>
+
     <!--font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </link>
 
     <!--css-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slides.css">
 
     <!--icone da pagina-->
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
-    
-    <title>FiveStar</title>
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
 </head>
+
 <body>
     <header>
-            <div class="logo">
-                <img src="img/logo.jpg" alt="logo Five Star">
-            </div>
-            <nav class="links">
-                <ul>
-                    <li><a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0" target="_blank" rel="Contato">Contato</a></li>
-                    <li><a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0" target="_blank" rel="Contato">Agendamento</a></li>
-                </ul>    
-            </nav>        
+        <div class="logo">
+            <img src="img/logo.jpg" alt="banner fivestar">
+        </div>
 
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0"
+                            target="_blank" rel="Contato">Contato</a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0"
+                            target="_blank" rel="Contato">Agendamento</a>
+                    </li>
+                </ul>
+            </nav>
     </header>
 
-    <main>  
-        <section class="imagens_slide">
-            <div class="container">
-                <div class="slides">
-                
-                    <!--Botões-->
-                    <input class="input" type="radio" name="slide" id="slide1" checked>
-                    <input class="input" type="radio" name="slide" id="slide2">
-                    <input class="input" type="radio" name="slide" id="slide3">
-                    <input class="input" type="radio" name="slide" id="slide4">
-                
-                    <!--Imagens-->
-                    <div class="slide s1">
-                        <img src="img/fivestar.jpg" alt="imagem1">
+    <main>
+        <section class="fivestarimages">
+            <div id="fivestar-images" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#fivestar-images" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#fivestar-images" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#fivestar-images" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            
+                <div class="carousel-inner">
+                    <div class="carousel-item active c-item">
+                        <img src="img/pattern1.png" class="d-block w-100 c-img" alt="Slide 1">
                     </div>
-                    <div class="slide" >
-                        <img src="img/fivestar.jpg" alt="imagem2">
+                    <div class="carousel-item c-item">
+                        <img src="img/fivestar.jpg" class="d-block w-100 c-img" alt="Slide 2">
                     </div>
-                    <div class="slide">
-                        <img src="img/fivestar.jpg" alt="imagem3">
-                    </div>
-                    <div class="slide">
-                        <img src="img/fivestar.jpg" alt="imagem4">
+                    <div class="carousel-item c-item">
+                        <img src="img/pattern4.png" class="d-block w-100 c-img" alt="Slide 3">
                     </div>
                 </div>
-                        </div>
-                
-                        <div class="navigation">
-                <!--referenciando as imagens dentro de cada input-->
-                <label class="bar" for="slide1"></label>
-                <label class="bar" for="slide2"></label>
-                <label class="bar" for="slide3"></label>
-                <label class="bar" for="slide4"></label>
-                        </div>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#fivestar-images" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#fivestar-images" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
-        <!--fim slides-->
 
-
-        <section class="sorteio">
-            <h5>Para participar do sorteio faça algum procedimento e concorrra a um IPHONE 15 PRO MAX!</h5>
-        </section>
+        <article class="sorteio">
+            <p>Para participar do sorteio faça algum procedimento e concorrra a um IPHONE 15 PRO MAX!</p>
+        </article>
 
         <section class="agendamento">
-            <h2>AGENDE PELO NOSSO WHATSAPP!</h2>
+            <article id="contato">
+                <h2>AGENDE PELO NOSSO WHATSAPP!</h2>
 
-            <span class="contato">
-                <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0" target="_blank">
-                    <p><i class="fa-brands fa-whatsapp"></i><abbr title="Agende o seu horário pelo nosso Whatsapp">Whatsapp</abbr></a></p>
+                <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0"
+                    target="_blank">
+                    <p><i class="fa-brands fa-whatsapp"></i><abbr
+                            title="Agende o seu horário pelo nosso Whatsapp">Whatsapp</abbr>
                 </a>
-            </span>
+            </article>
+        </section>
 
-            <aside class="localizacao">
-                
+        <section class="localizacao">
+
+            <div class="loc">
                 <h3>Nossa localição</h3>
 
-                <p>Rua 8, 6, Lotes 4, 6, 8 loja, Águas Claras, Brasília-DF - 71908-360<a href="https://www.google.com/maps/place/Barbearia+Five+Star/@-15.8349904,-48.0171115,17z/data=!3m1!4b1!4m6!3m5!1s0x935a3391bb2b0509:0xf0c29abd349df0!8m2!3d-15.8349956!4d-48.0145366!16s%2Fg%2F11vd7dfq61?entry=ttu" target="_blank""> <i class="fas fa-map-marker-alt"></i> <abbr title="Nossa localização">Ver no mapa</abbr></a>
+                <p>Rua 8, 6, Lotes 4, 6, 8 loja, Águas Claras, Brasília-DF - 71908-360<a
+                        href="https://www.google.com/maps/place/Barbearia+Five+Star/@-15.8349904,-48.0171115,17z/data=!3m1!4b1!4m6!3m5!1s0x935a3391bb2b0509:0xf0c29abd349df0!8m2!3d-15.8349956!4d-48.0145366!16s%2Fg%2F11vd7dfq61?entry=ttu"
+                        target="_blank"> <i class="fas fa-map-marker-alt"></i> <abbr title="Nossa localização">Ver no
+                            mapa</abbr></a>
                 </p>
 
-                <div class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.410831789479!2d-48.01711152499077!3d-15.83499042395577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3391bb2b0509%3A0xf0c29abd349df0!2sBarbearia%20Five%20Star!5e0!3m2!1sen!2sbr!4v1710721349589!5m2!1sen!2sbr" max-width="320" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-
                 <p><strong>Segunda-Feira a Sábado:</strong> 09:00 às 20:00</p>
+            </div>
 
-            </aside>
+            <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.410831789479!2d-48.01711152499077!3d-15.83499042395577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3391bb2b0509%3A0xf0c29abd349df0!2sBarbearia%20Five%20Star!5e0!3m2!1sen!2sbr!4v1710721349589!5m2!1sen!2sbr"
+                    max-width="320" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
         </section>
 
         <section class="informacoes">
+
             <h1>Barbearia Five Star</h1>
 
-            <p><strong>Formas de pagamento:</strong> <!--Visa,Mastercard, American Express, Hipercard, Elo Crédito, Maestro/Redeshop, Visa Electron, Elo Débito, Doc/Ted, Transferência entre Conta Corrente, Dinheiro, Depósito, PIX, Parcelamento próprio, Vale-Presente-->Cartões de Crédito/Débito, Pix e Dineheiro.</p>
+            <p><strong>Formas de pagamento:</strong>
+                <!--Visa,Mastercard, American Express, Hipercard, Elo Crédito, Maestro/Redeshop, Visa Electron, Elo Débito, Doc/Ted, Transferência entre Conta Corrente, Dinheiro, Depósito, PIX, Parcelamento próprio, Vale-Presente-->Cartões
+                de Crédito/Débito, Pix e Dineheiro.
+            </p>
 
-            <p><strong>Facilidades:</strong> Bar e Lanchonete, Wi-Fi, Estacionamento - Grátis, Atendemos adultos e crianças, Acesso para Deficientes, TV.</p>
+            <p><strong>Facilidades:</strong> Bar e Lanchonete, Wi-Fi, Estacionamento - Grátis, Atendemos adultos e
+                crianças, Acesso para Deficientes, TV.</p>
 
         </section>
 
+        <section class="cortes">
+            
+        </section>
+
     </main>
-    
+
     <footer>
         <h3>NOSSOS MEIOS DE CONTATO</h3>
+
         <ul>
-            <li><a href="https://www.instagram.com/barbearia_fivestar/?igsh=MW9taDd6MnZnY2V3ZQ%3D%3D" target="_blank">
+
+            <li>
+                <a href="https://www.instagram.com/barbearia_fivestar/?igsh=MW9taDd6MnZnY2V3ZQ%3D%3D" target="_blank">
                     <i class="fa-brands fa-instagram"></i> <abbr title="Instagram Five Star">Instagram</abbr>
                 </a>
             </li>
-            
+
             <li>
-                <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0" target="_blank">
-                    <li><i class="fa-brands fa-whatsapp"></i> <abbr title="Agende o seu horário pelo nosso Whatsapp">Whatsapp</abbr></li>
+                <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0"
+                    target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> <abbr
+                        title="Agende o seu horário pelo nosso Whatsapp">Whatsapp</abbr>
                 </a>
             </li>
+
             <li>
                 <i class="fa fa-phone"></i> (61) 98518-6655
             </li>
@@ -129,7 +164,6 @@
 
         <h5>EM BREVE SITE OFICIAL!!</h5>
     </footer>
-
-    <script src="script.js"></script><!--script slides-->
 </body>
+
 </html>
