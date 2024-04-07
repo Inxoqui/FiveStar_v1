@@ -24,6 +24,13 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
 
+    <!--slides cortes-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
 </head>
 
 <body>
@@ -32,49 +39,53 @@
             <img src="img/logo.jpg" alt="banner fivestar">
         </div>
 
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0"
-                            target="_blank" rel="Contato">Contato</a>
-                    </li>
-                    <li>
-                        <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0"
-                            target="_blank" rel="Contato">Agendamento</a>
-                    </li>
-                </ul>
-            </nav>
+        <nav class="menu">
+            <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0"
+                target="_blank" rel="Contato">Contato</a>
+
+            <a href="https://api.whatsapp.com/send/?phone=5561985186655&text&type=phone_number&app_absent=0"
+                target="_blank" rel="Contato">Agendamento</a>
+        </nav>
     </header>
 
     <main>
         <section class="fivestarimages">
-            <div id="fivestar-images" class="carousel slide" data-bs-ride="carousel">
+            <div id="slidesfivestar" class="carousel slide" data-bs-ride="carousel">
+                <!--indicadores-->
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#fivestar-images" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#fivestar-images" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#fivestar-images" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#slidesfivestar" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#slidesfivestar" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#slidesfivestar" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-            
+
+                <!--imagens-->
                 <div class="carousel-inner">
                     <div class="carousel-item active c-item">
-                        <img src="img/pattern5.png" class="d-block w-100 c-img" alt="Slide 1">
+                        <img src="img/fivestar_dsk.jpg" class="d-block w-100 c-img" alt="Slide 1">
                     </div>
                     <div class="carousel-item c-item">
-                        <img src="img/fivestar.jpg" class="d-block w-100 c-img" alt="Slide 2">
+                        <img src="img/fivestar_dsk.jpg" class="d-block w-100 c-img" alt="Slide 2">
                     </div>
                     <div class="carousel-item c-item">
-                        <img src="img/pattern4.png" class="d-block w-100 c-img" alt="Slide 3">
+                        <img src="img/fivestar_dsk.jpg" class="d-block w-100 c-img" alt="Slide 3">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#fivestar-images" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+
+                <!--btotões-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#slidesfivestar"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#fivestar-images" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#slidesfivestar"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
         </section>
 
         <article class="sorteio">

@@ -1,14 +1,22 @@
 .c-item {
-    height: 400px;
-  }
-  
+    height: 480px;
+    width: 1000px;
+}
+
 .c-img {
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.6);
+    transition: 1s;
 }
 
-.fivestarimages{
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.582);
+#fotos-fivestar{
+    height: 300px;
+    width: 300px;
+    margin: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .c-item {
+        height: 300px;
+    }
+}
