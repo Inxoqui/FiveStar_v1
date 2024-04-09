@@ -15,6 +15,17 @@
     margin: auto;
 }
 
+#cortesfivestar{
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+.f-img{
+    height: 100%;
+    width: 100%;
+}
+
 @media screen and (max-width: 600px) {
     .c-item {
         height: 300px;

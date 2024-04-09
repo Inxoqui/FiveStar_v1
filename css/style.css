@@ -80,6 +80,11 @@ main{
     justify-content: center;
 }
 
+.localizacao a{
+    text-decoration: none;
+    color: black;
+}
+
 .loc{
     text-align: center;
     margin-right: 50px;
@@ -90,13 +95,12 @@ main{
     text-align: center;
 }
 
-
-
 footer{
     text-align: center;
     background-color: #0b0716;
     color:white;
     padding: 10px;
+    margin-top: 16px;
 }
 
 footer ul{
