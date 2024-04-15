@@ -6,7 +6,6 @@
 .c-img {
     height: 100%;
     object-fit: cover;
-    transition: 1s;
 }
 
 #fotos-fivestar{
