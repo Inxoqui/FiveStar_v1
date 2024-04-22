@@ -65,6 +65,8 @@ main{
 
 .agendamento a:hover{
     color: black;
+    text-decoration: underline;
+
 }
 
 .localizacao{
