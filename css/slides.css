@@ -1,13 +1,11 @@
-.c-item {
-    height: 480px;
-    width: 1000px;
+@charset "UTF-8";
+
+/*fotos da barbearia*/
+.c-img{
+    height: 400px ;    
 }
 
-.c-img {
-    height: 100%;
-    object-fit: cover;
-}
-
+/*cortes*/
 #fotos-fivestar{
     height: 300px;
     width: 300px;
@@ -16,17 +14,19 @@
 
 #cortesfivestar{
     width: 300px;
-    height: auto;
+    height: 400px;
     margin: auto;
 }
 
 .f-img{
-    height: 100%;
-    width: 100%;
+    object-fit: cover;
 }
 
-@media screen and (max-width: 600px) {
-    .c-item {
-        height: 300px;
+/*configurações para celulares*/
+@media only screen and (max-width:600px){
+
+    /*fotos da barbearia*/
+    .c-img{
+        height: 250px ;
     }
 }
